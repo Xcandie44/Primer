@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity{
                     }
                     //SimpleAdapter adapter = new SimpleAdapter(this,symbols,);
                     //SimpleAdapter adapter = new SimpleAdapter();
-                    //String [] r = symbols.toArray(new String[0]);
+                    String [] r = symbols.toArray(new String[0]);
 
                     Currency[] c = new Currency[data.length()];
                     for(int n = 0;n<data.length();n++){
